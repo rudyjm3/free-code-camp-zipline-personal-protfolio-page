@@ -1,0 +1,117 @@
+.navbar-header {
+	border-style: solid;
+	border-color: grey;
+	border-radius: 50px;
+	border: 5px;
+}
+.navbar-nav {
+	float: right;
+	font-size: 20px;
+}
+.navbar-nav li:active {
+	background-color: #618dd3;
+}
+.navbar-nav li:hover {
+	background-color: #3270d3;
+	color: #f7f7f7 !important; 
+}
+.hero-banner {
+	background-image: url("images/Header image.jpg");
+	background-repeat: no-repeat;
+	/*background-attachment: fixed;*/
+	background-position: center;
+	background-position: 0px -50px;
+	height: 800px;
+}
+.header-text,.header-sub-text {
+	text-shadow: 5px 2px 2px rgba(150, 150, 150, 0.7);
+}
+.header-link-text {
+	display: block;
+	font-weight: bold;
+	text-shadow: 5px 2px 2px rgba(150, 150, 150, 0.7);
+	padding-right: 20px;
+	/*border-style: solid;
+	border-color: red;
+	border-width: 2px;*/
+}
+.box-one {
+	display: block;
+	float: right;
+	/*text-align: center;*/ /* Once removed fixed the problem of the professional links buttons not aligning to the left of the div.*/
+	/*border-style: solid;
+	border-color: blue;
+	border-width: 2px;*/
+}
+.box-two {
+	display: block;
+	float: right;
+	/*border-style: solid;
+	border-color: blue;
+	border-width: 2px;*/
+}
+.links {
+	list-style: none;
+	/*border-style: solid;
+	border-color: red;
+	border-width: 2px;*/
+	padding: 0 10px 10px 0;
+}
+.links li {
+	padding-bottom: 10px;
+}
+.about-text p {
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+}
+.frontend-box1 {
+	margin: 0 50px 0 15px;
+} 
+.frontend-section li {
+	font-weight: bold;
+}
+.sub-name {
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+}
+.profile-pic {
+  position: relative;
+    left: 90px;
+  box-shadow: 5px 5px 20px black;
+  border: solid orange 2px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* .profile-pic img {
+	vertical-align: middle;
+} */
+.pic {
+  background-color: #5282ce;
+  height: 100%;
+}
+
+.thumbnail img {
+	height: 300px;
+}
+.name , .sub-name {
+	color: #f7f7f7;
+	text-align: center;
+}
+.sub-name {
+	padding-bottom: 20px;
+
+}
+section {
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.section3 {
+	padding-left: 25px;
+	padding-right: 25px;
+	background-color: #edeeef;
+}
+
+.section4 {
+	padding-top: 30px;
+	background-color: #efad04;
+}
