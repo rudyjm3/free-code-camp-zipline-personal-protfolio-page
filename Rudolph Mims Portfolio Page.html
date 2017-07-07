@@ -7,29 +7,39 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="personal_portfolio_page_stylesheet.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
   
 </head>
 
 <body>
 <a  name="home"></a>
 <section class="nav">
+<!-- // Orginal nav bar -->
   <nav class="navbar navbar-default">
     <div class="container-fluid">
       <div class="navbar-header">
+      <!-- nav moblie / small screen icon setup   -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                       
+        </button>
+      <!-- end nav mobile   -->
         <a class="navbar-brand" href="#home">Rudolph Mims</a>
       </div>
-      <ul class="nav navbar-nav">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
     </div>
   </nav>
 </section>  
@@ -52,7 +62,8 @@
         <ul class="links">
           <li><a href="https://www.linkedin.com/in/rudolph-mims-42802662/" target="_blank" class="btn btn-default" role="button"> <i class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i> Linkedin</a></li>
           <li><a href="https://github.com/rudyjm3" target="_blank" class="btn btn-default" role="button"> <i class="fa fa-github fa-lg" aria-hidden="true"></i> Github</a></li>
-          <li><a href="https://www.freecodecamp.com/rudyjm3" target="_blank" class="btn btn-default" role="button"> <i class="fa fa-free-code-camp fa-lg" aria-hidden="true"></i> Free Code Camp</a></li>        
+          <li><a href="https://www.freecodecamp.com/rudyjm3" target="_blank" class="btn btn-default" role="button"> <i class="fa fa-free-code-camp fa-lg" aria-hidden="true"></i> Free Code Camp</a></li>
+          <li><a href="https://codepen.io/rudyjm3/" target="_blank" class="btn btn-default" role="button"><i class="fa fa-codepen fa-lg" aria-hidden="true"></i> CodePen</a></li>       
         </ul>
       </div>
     </div>
@@ -127,8 +138,11 @@
     <div class="col-md-4 pic">
       <img  src="http://dwdrm.com/test/10f4615.jpg"  class="img-circle profile-pic" alt="Rudoplh Mims" width="300" height="300"/>
       <h3 class="name">Rudolph Mims</h3>
+      <h4><a href="http://dwdrm.com" traget="_blank" class="site-link">Dynamic Web Designs</a></h4>
+      <p class="sub-name">Based in Clayton, NC within the Research Triangle Area</p>
       <hr>
-      <p class="sub-name">Freelance Front-End Web Designer</p>
+      <p class="sub-name">Freelance Front-End Web Designer and Graphic Designer</p>
+      <p class="sub-name-last">Freelance Graphic Designer</p>
     </div>
   </div>
 </section>
@@ -168,7 +182,7 @@
     </div>
     <div class="col-sm-6 col-md-4">  
       <div class="thumbnail">
-        <img src="images/Round Table Haven-half page.jpeg" alt="Pet Rescue Web site">
+        <img src="images/Round Table Haven-half page.jpeg" alt="Pet Rescue Web site" title="Click the View Button For a larger view">
         <div class="caption">
           <h3>Pet Rescue Web Site</h3>
           <p><a href="images/Round Table Haven.jpeg" target="_blank" class="btn btn-primary" role="button"> <i class="fa fa-eye" aria-hidden="true"></i> View Large Image</a> <a href="http://roundtablehaven.com" target="_blank" class="btn btn-default" role="button"> <i class="fa fa-globe" aria-hidden="true"></i> View Live Web Page</a></p>
@@ -182,18 +196,18 @@
 <a  name="contact"></a>
 <section class="section4">
   <div class="row">
-    <div class="col-sm-8">
+    <div class="col-sm-12">
       <h2 class="section-title">Contact Me</h2>
       <hr>
       <p>Want to get in touch with me? Great! Just use the form to fill in your details and I will get back with you right away.</p>
 
       <p>Rudolph Mims<br/>
-      Front End Web Developer & Graphic Designer<br/>
-      <i class="fa fa-envelope fa-lg" aria-hidden="true"></i> <a href="mailto:contact@dwdrm.com">contact@dwdrm.com</a><br/>
-      <i class="fa fa-phone fa-lg" aria-hidden="true"></i> (469) 546-5732</p>
+      Front End Web Developer & Graphic Designer</p></br>
+      <p><i class="fa fa-envelope fa-lg" aria-hidden="true"></i><span class="email-text"><a href="mailto:contact@dwdrm.com">contact@dwdrm.com</a></span><br/>
+      <i class="fa fa-phone fa-lg" aria-hidden="true"></i><span class="phone-number">(469) 546-5732</span></p>
     </div>
      
-      <div class="col-sm-4">
+      <!-- <div class="col-sm-4">
         <div class="well">
           <form>
             <div class="form-group">
@@ -207,7 +221,7 @@
             </div>
           </form>
         </div>
-      </div>
+      </div> -->
   </div>    
 </section>
 

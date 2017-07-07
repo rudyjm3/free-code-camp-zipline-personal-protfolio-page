@@ -1,3 +1,6 @@
+body p {
+	font-size: 18px;
+}
 .navbar-header {
 	border-style: solid;
 	border-color: grey;
@@ -70,10 +73,7 @@
 .frontend-section li {
 	font-weight: bold;
 }
-.sub-name {
-	font-family: 'Lato', sans-serif;
-	font-size: 18px;
-}
+
 .profile-pic {
   position: relative;
     left: 90px;
@@ -97,8 +97,22 @@
 	color: #f7f7f7;
 	text-align: center;
 }
+.site-link {
+	text-decoration: none;
+	font-family: 'Lato', sans-serif;
+	margin-left: 145px;
+	color: #f7f7f7;
+}
 .sub-name {
-	padding-bottom: 20px;
+	font-family: 'Lato', sans-serif;
+	font-size: 17px;
+}
+.sub-name-last {
+	font-family: 'Lato', sans-serif;
+	font-size: 17px;
+	color: #f7f7f7;
+	text-align: center;
+	padding-bottom: 30px;
 
 }
 section {
@@ -113,5 +127,12 @@ section {
 
 .section4 {
 	padding-top: 30px;
+	padding-bottom: 30px;
 	background-color: #efad04;
+}
+.email-text {
+	padding-left: 10px;
+}
+.phone-number {
+	padding-left: 10px;
 }
