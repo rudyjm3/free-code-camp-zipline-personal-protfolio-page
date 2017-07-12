@@ -24,6 +24,7 @@ body p {
 	color: #f7f7f7 !important; 
 }
 .hero-banner {
+	margin-top: 50px;
 	background-image: url("images/Header image.jpg");
 	background-repeat: no-repeat;
 	/*background-attachment: fixed;*/
@@ -72,20 +73,24 @@ body p {
 	font-family: 'Lato', sans-serif;
 	font-size: 18px;
 }
-.frontend-box1 {
+/*.frontend-box1 {
 	margin: 0 50px 0 15px;
-} 
+} */
 .frontend-section li {
 	font-weight: bold;
 }
 
 .profile-pic {
   position: relative;
-    left: 90px;
   box-shadow: 5px 5px 20px black;
   border: solid orange 2px;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+.pic img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 /* .profile-pic img {
 	vertical-align: middle;
@@ -102,12 +107,26 @@ body p {
 	color: #f7f7f7;
 	text-align: center;
 }
+.pic h4 {
+	text-decoration: none;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	color: #f7f7f7;
+}
 .site-link {
+	text-decoration: none;
+	color: #f7f7f7;
+}
+.site-link:hover {
+	text-decoration: none;
+	color: #6af73b;
+}
+/*.site-link {
 	text-decoration: none;
 	font-family: 'Lato', sans-serif;
 	margin-left: 145px;
 	color: #f7f7f7;
-}
+}*/
 .sub-name {
 	font-family: 'Lato', sans-serif;
 	font-size: 17px;
@@ -124,6 +143,9 @@ section {
 	padding-left: 25px;
 	padding-right: 25px;
 }
+.section2 {
+	padding: 0;
+}
 .section3 {
 	padding-left: 25px;
 	padding-right: 25px;
@@ -135,9 +157,32 @@ section {
 	padding-bottom: 30px;
 	background-color: #efad04;
 }
+.section4 h2 {
+	color: #f7f7f7;
+}
 .email-text {
 	padding-left: 10px;
 }
+.email-text a:hover {
+	text-decoration: none;
+	color: #6af73b;
+}
 .phone-number {
 	padding-left: 10px;
+}
+.copyright {
+	font-size: 12px;
+	text-align: center;
+	color: grey;
+}
+.copyright span {
+	color: #5a5b5b;
+}
+.copyright a {
+	text-decoration: none;
+	color: grey;
+}
+.copyright a:hover {
+	text-decoration: none;
+	color: #6af73b;
 }
